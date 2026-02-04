@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detail Character</title>
+  <link rel="stylesheet" href="detail.css" />
+</head>
+
+<body>
+  <div class="topbar">
+    <button class="back-btn" onclick="history.back()">← Back</button>
+    <div class="brand">Waifu Database</div>
+  </div>
+
+  <main class="wiki-container">
+    <aside class="infobox" id="infobox"></aside>
+
+    <article class="content">
+      <h1 id="title">Loading...</h1>
+      <div class="toc" id="toc"></div>
+      <div id="sections"></div>
+    </article>
+  </main>
+
+  <!-- URUTAN INI WAJIB -->
+  <script src="data.js"></script>
+  <script src="detail.js"></script>
+</body>
+</html>
